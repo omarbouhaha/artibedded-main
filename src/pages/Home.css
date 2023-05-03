@@ -1,0 +1,31 @@
+.home{
+    background: url("../assets/logo.svg")no-repeat center ;
+   background-size:     80% 80%;
+    display: flex;
+   
+    min-height: 100vh;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    
+}
+.footer{
+    position:sticky;
+     bottom:0;
+     width: 100vw;
+     left:0; right:0;
+ }
+ @media screen and (max-width: 768px) {
+    .home{
+       
+       background-size:     115% 115%;
+       
+        
+        
+        
+    }
+   
+    
+ }

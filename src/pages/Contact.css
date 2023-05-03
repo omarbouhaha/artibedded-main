@@ -1,0 +1,15 @@
+.side-information {
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    box-shadow: 10px 5px 5px rgb(201, 187, 201);
+    border-radius: 10px;
+    display: flex;
+   
+}
+.form{
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    box-shadow: 10px 5px 5px rgb(201, 187, 201);
+    border-radius: 10px;
+}
+

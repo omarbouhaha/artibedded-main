@@ -1,0 +1,12 @@
+<Grid container spacing={2} className="cardJob">
+        <Grid item xs={12} sm={12} md={12}> <h2>Poste #2 : Ingénieur de qualité (Web / Mobile)</h2></Grid>
+       
+        <Grid item xs={3} sm={3} md={3}> <GrMapLocation/><p>Sfax</p> </Grid>
+        <Grid item xs={3} sm={3} md={3}> <GrMapLocation/><p>Sfax</p></Grid>
+        <Grid item xs={3} sm={3} md={3}> <GrMapLocation/><p>Sfax</p></Grid>
+        <Grid item xs={3} sm={3} md={3}> <GrMapLocation/><p>Sfax</p></Grid>
+        
+       
+        <Grid item xs={12} sm={12} md={12}><Button color="secondary" variant='outlined' size='large' className='button-post'>Postuler</Button></Grid>
+            
+    </Grid>

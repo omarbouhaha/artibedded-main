@@ -1,0 +1,45 @@
+.container-jobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-jobs {
+  display: flex;
+
+  background-color: #f8f0f4;
+}
+.left-header-jobs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right-header-jobs {
+  display: flex;
+
+  background: url("../assets/right-header-career.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 50vw;
+}
+
+@media screen and (max-width: 920px) {
+  .header-jobs {
+    min-height: 100%;
+    flex-direction: column-reverse;
+  }
+  .left-header-jobs {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .right-header-jobs {
+    width: 100vw;
+    height: 499px;
+  }
+}

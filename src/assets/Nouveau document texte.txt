@@ -1,0 +1,26 @@
+<div className="container-card-service">
+      <Grid container spacing={1}>
+        
+        <Grid item xs={12} md={6}>
+          <div className="text">
+            <div className="text-title">
+              <h1>Embdded Systems</h1>
+            </div>
+            <div className="text-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Architecto modi iste quasi ipsum nobis dolor reiciendis soluta?
+              Animi velit voluptates, nobis accusamus distinctio assumenda
+              tempore quasi culpa pariatur voluptatum voluptate! Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Omnis aliquam
+              quibusdam assumenda et, voluptatum id pariatur illum! Atque, illo
+              porro vel, aliquid, natus quis perspiciatis officia voluptates
+              distinctio id eum?
+            </div>
+          </div>
+        </Grid>
+
+        <Grid item xs={12} md={6}>
+          <img src={embedded} className="img-fluid" alt="Responsive image" />
+        </Grid>
+      </Grid>
+    </div>

@@ -8,13 +8,14 @@ import Jobs from "./pages/Jobs";
 import Service from "./pages/404";
 import Layout from "./components/layout/Layout";
 import JobInfo from "./pages/JobInfo";
-
+import { BrowserRouter } from 'react-router-dom';
 function App() {
   return (
+    <BrowserRouter>
     <div style={{margin:'0'}}>
    <Layout>
    
-    
+   
       <Routes >
       
         <Route path="/" element={<Home/>} />
@@ -23,12 +24,15 @@ function App() {
         <Route path="/career" element={<Jobs/>} />
         <Route path="/services" element={<Service/>} />
         <Route path="/jobInfo/:id" element={<JobInfo/>} />
-        
+
       </Routes>
+
+
     </Layout>
    
 
     </div>
+    </BrowserRouter>
   );
 }
 
